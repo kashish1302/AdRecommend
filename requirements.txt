@@ -1,7 +1,4 @@
 streamlit
 pandas
 numpy
-umap
-re
-matplotlib.pyplot
-seaborn
+
