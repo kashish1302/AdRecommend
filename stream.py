@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import re
 import numpy as np
-import umap
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 
 def execute(target_movie):
