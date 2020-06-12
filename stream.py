@@ -5,7 +5,8 @@ import numpy as np
 
 
 def execute(target_movie):
-    cust_tags_list= pd.read_csv('Customer_tags.csv')
+    url="raw.githubusercontent.com/kashish1302/AdRecommend/master/Customer_Tags.csv"
+    cust_tags_list= pd.read_csv(url,sep=",")
     mv_tags_list= pd.read_csv('Table_advert1.csv')
     target_tag_list = cust_tags_list[cust_tags_list.Customer_ID == target_movie].tag_list.values[0]
     mv_tags_list_sim = mv_tags_list[['Title','tag_list']]
