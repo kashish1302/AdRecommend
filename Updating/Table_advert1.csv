@@ -1,0 +1,11 @@
+Title,tag_list
+ABC Specs,"['Specs','Shades','Old','Young','Budget','Affluent','Male','Female','Office Professional']"
+Lenskart,"['Specs','Shades','Old','Young','Budget','Male','Female','Office Professional']"
+Rayban,"['Shades','Beard','Young','Affluent','Male','Office Professional','Office Professional','Makeup','Female']"
+Beard Oil,"[Shades','Beard','Young','Budget','Male','Office Professional']"
+Saloon,"['Specs','Shades','Beard','Bushy Eyebrows','Old','Young','Budget','Affluent','Male','Female','Office Professional','Makeup','Office Professional']"
+Formal Clothing,"['Specs','Shades','Beard','Old','Young','Budget','Affluent','Male','Female','Office Professional','Makeup']"
+Apple Watch,"['Specs','Shades','Old','Young','Budget','Affluent','Male','Female','Office Professional','Makeup','Office Professional']"
+Jeweller,"['Bushy Eyebrows','Old','Affluent','Male','Female','Makeup','Lipstick']"
+Cosmetics,"['Makeup','Female','Lipstick']"
+Rich,"['Affluent', 'Male', 'Female']"
