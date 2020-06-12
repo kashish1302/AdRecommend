@@ -5,8 +5,8 @@ import numpy as np
 
 
 def execute(target_movie):
-    cust_tags_list= pd.read_csv('Updating/Customer_tags.csv')
-    mv_tags_list= pd.read_csv('Updating/Table_advert1.csv')
+    cust_tags_list= pd.read_csv('Customer_tags.csv')
+    mv_tags_list= pd.read_csv('Table_advert1.csv')
     target_tag_list = cust_tags_list[cust_tags_list.Customer_ID == target_movie].tag_list.values[0]
     mv_tags_list_sim = mv_tags_list[['Title','tag_list']]
     mv_tags_list_sim['jaccard_sim'] = mv_tags_list_sim.tag_list.map(lambda x: len(set(x).intersection(set(target_tag_list))) /len(set(x).union(set(target_tag_list))))
